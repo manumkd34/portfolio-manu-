@@ -1,0 +1,177 @@
+{
+  "basics": {
+    "name": "Emmanuel MUKENDI MPINDA",
+    "label": "Étudiant en BTS SIO - Option SLAM",
+    "image": "/me_avatar.jpg",
+    "email": "manu.mukendi95@example.com",
+    "phone": "+33 7 83 11 21 62",
+    "url": "https://mazouzzz.github.io/portfolio/",
+    "summary": "Étudiant en BTS SIO passionné par le développement web et les nouvelles technologies. Expérience en création de sites web sous WordPress avec Elementor Pro et WooCommerce. Capable de travailler en équipe et de résoudre des problèmes techniques sur divers appareils électroniques.",
+    "theme": "blue",
+    "location": {
+      "address": "",
+      "postalCode": "95700",
+      "city": "Roissy",
+      "countryCode": "FR",
+      "region": "Île-de-France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "emmanuel-mukendi",
+        "url": "https://linkedin.com/in/emmanuel-mukendi"
+      },
+      {
+        "network": "GitHub",
+        "username": "emmanuelmukendi",
+        "url": "https://github.com/emmanuelmukendi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "AIZEN CONSULTING",
+      "position": "Stagiaire - Développement Web",
+      "location_type": "On site",
+      "location": "Paris, France",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "summary": "Développement et mise en ligne de sites web sous WordPress avec Elementor Pro.",
+      "highlights": [
+        "Mise en ligne réussie de deux sites web professionnels"
+      ],
+      "responsibilities": [
+        "Création et personnalisation de pages avec Elementor Pro",
+        "Optimisation du design et de l'expérience utilisateur",
+        "Gestion des produits et configurations WooCommerce"
+      ],
+      "skills": [
+        "WordPress",
+        "Elementor Pro",
+        "CSS",
+        "WooCommerce"
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Développeur Web",
+      "location_type": "Remote",
+      "location": "Roissy, France",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "summary": "Développement de sites web sous WordPress",
+      "highlights": [
+        "Création de sites vitrines",
+        "Configuration d'e-commerce avec WooCommerce",
+        "Personnalisation avec Elementor Pro"
+      ],
+      "skills": [
+        "WordPress",
+        "Elementor Pro",
+        "WooCommerce"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "École d'Informatique IRIS Paris",
+      "url": "https://iris.com",
+      "area": "Informatique",
+      "studyType": "BTS",
+      "startDate": "2023-09-01",
+      "endDate": "2025-06-01",
+      "score": "",
+      "courses": [
+        "BTS SIO - Option SLAM"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Pix",
+      "date": "2024-06-01",
+      "issuer": "Pix",
+      "url": "https://pix.fr"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Développement Web",
+      "level": "Intermédiaire",
+      "keywords": [
+        "WordPress",
+        "Elementor Pro",
+        "WooCommerce",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Langues",
+      "level": "",
+      "keywords": [
+        "Français (Natif)",
+        "Anglais (Intermédiaire)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Natif"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Intermédiaire"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technologie",
+      "keywords": [
+        "Développement Web",
+        "Nouvelles Technologies"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Aizen Recrutement",
+      "isActive": true,
+      "description": "Site vitrine pour une agence de recrutement.",
+      "highlights": [
+        "Développement sous WordPress avec Elementor Pro"
+      ],
+      "url": "https://aizenrecruitment.com/"
+    },
+    {
+      "name": "Aizen Consulting",
+      "isActive": true,
+      "description": "Site professionnel pour une société de consulting.",
+      "highlights": [
+        "Développement sous WordPress avec personnalisation CSS"
+      ],
+      "url": "https://aizenconsulting.com/"
+    },
+    {
+      "name": "E-commerce (en cours)",
+      "isActive": true,
+      "description": "Développement d'un site e-commerce avec WooCommerce.",
+      "highlights": [
+        "Configuration de WooCommerce et gestion des produits"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Veille Technologique",
+      "isActive": true,
+      "description": "Analyse des évolutions majeures de la guerre moderne, notamment l'utilisation des drones et les attaques cybercriminelles.",
+      "highlights": [
+        "Collecte d'informations sur une période d'un an, mises à jour tous les 5 jours avec sources et dates"
+      ],
+      "url": "https://sites.google.com/view/veille-technologique-zak/accueil"
+    }
+  ]
+}
