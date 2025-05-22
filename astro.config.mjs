@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://manumkd34.github.io',
-  // base:'PM', // Commenté pour le développement local
+  base: '/portfolio-manu-/',
   trailingSlash: 'always',
   integrations: [tailwind()],
 });
