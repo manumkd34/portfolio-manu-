@@ -7,12 +7,11 @@ import X from "@/icons/X.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
-import type { SocialIcon } from "@/types";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
-const SOCIAL_ICONS: SocialIcon = {
+const SOCIAL_ICONS: Record<string, any> = {
 	GitHub,
 	LinkedIn,
 	X,
@@ -69,10 +68,15 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 				{
 					profiles.map(({ network, url }) => {
 						const Icon = SOCIAL_ICONS[network];
-
 						return (
-							<a href={url} title={`Visit ${name} profile on ${network}`} target="_blank" rel="noopener noreferrer">
-								<Icon />
+							<a
+								href={url}
+								target="_blank"
+								rel="noopener"
+								class="text-skin-muted hover:text-skin-base transition-colors"
+								title={`Visit ${network}`}
+							>
+								{Icon && <Icon />}
 							</a>
 						);
 					})
