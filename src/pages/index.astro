@@ -11,7 +11,7 @@ import Tail from "@/components/sections/Tail.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
-import { basics, projects } from "@cv";
+import { basics, projects, work } from "@cv";
 const { name, label } = basics;
 ---
 
@@ -23,7 +23,7 @@ const { name, label } = basics;
 			<ThemeSwitch />
 		</div>
 		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
-			<Experience className="print:col-span-3" />
+			<Experience className="print:col-span-3" work={work} />
 			<Projects className="print:hidden" projects={projects} />
 			<Skills className="print:hidden" />
 			<Education className="order-first" />
